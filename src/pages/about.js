@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import Prepare from '../components/prepare'
+
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -21,33 +23,37 @@ const About = () => (
     <SEO title="about" />
     <Grid>
       <div className="main-div-colon picture-about">
-        <div className="opacity-div">
+        <div className="opacity-dive">
           <Row>
-            <Col xs={12} md={12}>
-              <div className="about-colon">
-                <h1>ABOUT COLONIC</h1>
-              </div>
-              <div>
-                <p className="info-about-colon">
-                  The Gravity Method colonic, also known as colon hydrotherapy,
-                  uses gravity for the flow of water to gently clean the colon
-                  from unwanted fecal matter, gas and mucus. No pressure,
-                  machines, or electricity involved. This is a manual and
-                  natural colon therapy that is gentle, relaxing, and encourages
-                  feedback and dialogue between the client and hydrotherapist.
-                </p>
-                <p className="info-about-colon-2">
-                  The gravity method colonic is the original and most natural
-                  way to perform a colon cleanse because it allows the body to
-                  heal itself by ridding the colon of toxin build-up with the
-                  natural forces of water and gravity. Although many clients are
-                  nervous for their first colonic therapy session, most people
-                  say that the process was much easier than they expected and
-                  that the therapy session felt relaxing and rejuvenating.
-                </p>
-              </div>
-              <div className="mk-app-btn">
-                <button className="app-btn">BOOK NOW</button>
+            <Col xs={6} md={6}>
+              <div className="white-bckgrnd-about">
+                <div className="about-colon">
+                  <h1>ABOUT COLONIC</h1>
+                </div>
+                <div>
+                  <p className="info-about-colon">
+                    The Gravity Method colonic, also known as colon
+                    hydrotherapy, uses gravity for the flow of water to gently
+                    clean the colon from unwanted fecal matter, gas and mucus.
+                    No pressure, machines, or electricity involved. This is a
+                    manual and natural colon therapy that is gentle, relaxing,
+                    and encourages feedback and dialogue between the client and
+                    hydrotherapist.
+                  </p>
+                  <p className="info-about-colon-2">
+                    The gravity method colonic is the original and most natural
+                    way to perform a colon cleanse because it allows the body to
+                    heal itself by ridding the colon of toxin build-up with the
+                    natural forces of water and gravity. Although many clients
+                    are nervous for their first colonic therapy session, most
+                    people say that the process was much easier than they
+                    expected and that the therapy session felt relaxing and
+                    rejuvenating.
+                  </p>
+                </div>
+                <div className="mk-app-btn">
+                  <button className="app-btn">BOOK NOW</button>
+                </div>
               </div>
             </Col>
           </Row>
@@ -164,39 +170,7 @@ const About = () => (
         </Row>
       </Grid>
     </div>
-    <Grid id="how-to-prepare">
-      <div className="main-div-colon picture-about">
-        <div className="opacity-div">
-          <Row>
-            <Col xs={12} md={12}>
-              <div className="about-colon">
-                <h1>HOW TO PREPARE</h1>
-              </div>
-              <div>
-                <p className="info-about-colon">Few days prior to colonic:</p>
-                <p className="info-about-colon">
-                  Stay properly hydrated. Drink plenty of water and green
-                  vegetable juices, it'll help to hydrate the body ad loosen the
-                  waste. Avoid caffein, alcohol and tobacco as it dehydrates the
-                  body and creates inflammation.
-                </p>
-                <p className="info-about-colon">
-                  Cut back on animal protein, dairy, fried foods, legumes and
-                  processed foods. Its best to consume fresh fruits and veggies,
-                  salads, whole grains, veggie juices, soups for an easy and
-                  effective release.
-                </p>
-                <p className="info-about-colon-2">
-                  Avoid any carbonated and bubbly drinks, as it creates bloating
-                  and gas and makes it harder for the water to move through the
-                  colon.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </div>
-      </div>
-    </Grid>
+    <Prepare />
   </Layout>
 )
 
