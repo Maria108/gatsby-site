@@ -7,6 +7,15 @@ import SEO from '../components/seo'
 import '../styles/about.css'
 import { Row, Col, Grid } from 'react-bootstrap'
 
+import {
+  FaWind,
+  FaToiletPaper,
+  FaBatteryQuarter,
+  FaHippo,
+  FaRegMehRollingEyes,
+  FaRegDizzy,
+} from 'react-icons/fa'
+
 const About = () => (
   <Layout>
     <SEO title="about" />
@@ -58,7 +67,7 @@ const About = () => (
           <Col xs={12} md={4}>
             <div className="image-about-about">
               <div className="poop-icon">
-                <i class="fas fa-battery-quarter" />
+                <FaBatteryQuarter />
               </div>
               <p className="myth">FATIGUE</p>
               <p className="about-myth">
@@ -77,7 +86,7 @@ const About = () => (
           <Col xs={12} md={4}>
             <div className="image-about-about">
               <div className="poop-icon">
-                <i class="fas fa-wind" />
+                <FaWind />
               </div>
               <p className="myth">BLOATING</p>
               <p className="about-myth">
@@ -92,7 +101,7 @@ const About = () => (
           <Col xs={12} md={4}>
             <div className="image-about-about">
               <div className="poop-icon">
-                <i class="fas fa-toilet" />
+                <FaToiletPaper />
               </div>
               <p className="myth">CONSTIPATION</p>
               <p className="about-myth">
@@ -112,7 +121,7 @@ const About = () => (
           <Col xs={12} md={4}>
             <div className="image-about-about">
               <div className="poop-icon">
-                <i class="far fa-meh-rolling-eyes" />
+                <FaRegMehRollingEyes />
               </div>
               <p className="myth">SKIN ISSUES</p>
               <p className="about-myth">
@@ -127,7 +136,7 @@ const About = () => (
           <Col xs={12} md={4}>
             <div className="image-about-about">
               <div className="poop-icon">
-                <i class="fas fa-hippo" />
+                <FaHippo />
               </div>
               <p className="myth">FEELING HEAVY/SLUGGISH</p>
               <p className="about-myth">
@@ -142,7 +151,7 @@ const About = () => (
           <Col xs={12} md={4}>
             <div className="image-about-about">
               <div className="poop-icon">
-                <i class="far fa-dizzy" />
+                <FaRegDizzy />
               </div>
               <p className="myth">HEADACHE</p>
               <p className="about-myth">
