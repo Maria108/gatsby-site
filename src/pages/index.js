@@ -6,6 +6,8 @@ import Image from '../components/image'
 import SEO from '../components/seo'
 import { Row, Col, Grid } from 'react-bootstrap'
 
+import { FaRegCheckSquare } from 'react-icons/fa'
+
 import '../styles/home.css'
 
 const IndexPage = () => (
@@ -16,23 +18,23 @@ const IndexPage = () => (
         <Row>
           <Col xs={6} md={7}>
             <div className="on-top">
-              <p>Powerful detoxication methods for a healthy life</p>
+              <p>Powerful detoxification methods for a healthy life</p>
             </div>
             <div>
               <p className="points">
-                <i class="far fa-check-square" /> Eliminate bloating
+                <FaRegCheckSquare /> Eliminate bloating
               </p>
               <p className="points">
-                <i class="far fa-check-square" /> Increase energy
+                <FaRegCheckSquare /> Increase energy
               </p>
               <p className="points">
-                <i class="far fa-check-square" /> Boost immunity
+                <FaRegCheckSquare /> Boost immunity
               </p>
               <p className="points">
-                <i class="far fa-check-square" /> Clear skin
+                <FaRegCheckSquare /> Clear skin
               </p>
               <p className="points">
-                <i class="far fa-check-square" /> Detoxify your body
+                <FaRegCheckSquare /> Detoxify your body
               </p>
             </div>
           </Col>
