@@ -4,6 +4,8 @@ import React from 'react'
 import '../styles/footer.css'
 import { Row, Col, Grid } from 'react-bootstrap'
 
+import { FaMapMarkerAlt, FaPhone, FaRegClock } from 'react-icons/fa'
+
 const Footer = () => (
   <footer className="footer">
     <Grid className="box-footer">
@@ -12,14 +14,13 @@ const Footer = () => (
           <div>
             <p>Contact</p>
             <p>
-              <i class="fas fa-map-marker-alt" /> 313 7th St, Brooklyn, NY,
-              11215
+              <FaMapMarkerAlt /> 313 7th St, Brooklyn, NY, 11215
             </p>
             <p>
-              <i class="fas fa-phone" /> 646-385-9985
+              <FaPhone /> 646-385-9985
             </p>
             <p>
-              <i class="far fa-clock" /> Fri 8:00AM - 7:00PM
+              <FaRegClock /> Fridays 8:00AM - 7:00PM
             </p>
           </div>
         </Col>
