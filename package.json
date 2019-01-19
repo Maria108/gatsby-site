@@ -21,6 +21,8 @@
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.3.0",
+    "react-router-hash-link": "^1.2.1",
     "reactstrap": "^7.0.2"
   },
   "keywords": [
