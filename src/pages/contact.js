@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import MapContainer from '../components/map.js'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -25,7 +25,9 @@ const Contact = () => (
             </div>
           </Col>
           <Col xs={12} md={6}>
-            <div className="my-maps" />
+            <div className="my-maps">
+              <MapContainer />
+            </div>
           </Col>
         </Row>
       </div>
