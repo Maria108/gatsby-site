@@ -7,6 +7,8 @@ import SEO from '../components/seo'
 import '../styles/contact.css'
 import { Row, Col, Grid } from 'react-bootstrap'
 
+import { FaRegEnvelope, FaPhone, FaRegClock } from 'react-icons/fa'
+
 const Contact = () => (
   <Layout>
     <SEO title="contact" />
@@ -17,10 +19,13 @@ const Contact = () => (
             <div className="contact-info">
               <h1>Park Slope Colonics</h1>
               <p>
-                <i class="fas fa-phone" /> 917-654-2345
+                <FaPhone /> 646-385-9985 text or call
               </p>
               <p>
-                <i class="far fa-envelope" /> reach.elena.bykova@gmail.com
+                <FaRegEnvelope /> parkslopecolonics@gmail.com
+              </p>
+              <p>
+                <FaRegClock /> Fridays 8:00AM - 7:00PM
               </p>
             </div>
           </Col>
