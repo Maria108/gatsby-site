@@ -20,13 +20,13 @@ const Menu = () => (
           <Link to="/">HOME</Link>
         </NavItem>
         <NavItem eventKey={2}>
-          <Link to="/about/">ABOUT</Link>
+          <Link to="/about">ABOUT</Link>
         </NavItem>
         <NavItem eventKey={2}>
           <Link to="/blog">BLOG</Link>
         </NavItem>
         <NavItem eventKey={2}>
-          <Link to="/About">HOW TO PREPARE</Link>
+          <Link to="/about">HOW TO PREPARE</Link>
         </NavItem>
         <NavItem eventKey={2}>
           <Link to="/faq">FAQ AND PRICING</Link>
