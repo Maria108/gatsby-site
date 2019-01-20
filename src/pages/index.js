@@ -2,13 +2,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
 import { Row, Col, Grid } from 'react-bootstrap'
 
 import { FaRegCheckSquare } from 'react-icons/fa'
 
 import '../styles/home.css'
+import 'bootstrap/dist/css/bootstrap.css'
 
 const IndexPage = () => (
   <Layout>
