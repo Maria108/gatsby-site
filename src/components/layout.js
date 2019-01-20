@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from './header'
 import Menu from './menu'
+import Example from './newmenu'
 import Footer from './footer'
 import './layout.css'
 
@@ -14,13 +14,17 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            menuLinks {
+              name
+              link
+            }
           }
         }
       }
     `}
     render={data => (
       <>
-        <Menu />
+        <Example />
         {children}
         <Footer />
       </>
