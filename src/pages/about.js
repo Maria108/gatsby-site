@@ -16,6 +16,7 @@ import {
   FaHippo,
   FaRegMehRollingEyes,
   FaRegDizzy,
+  FaRegCheckSquare,
 } from 'react-icons/fa'
 
 const About = () => (
@@ -31,25 +32,27 @@ const About = () => (
                   <h1>ABOUT COLONIC</h1>
                 </div>
                 <div>
-                  <p className="info-about-colon">
-                    The Gravity Method colonic, also known as colon
-                    hydrotherapy, uses gravity for the flow of water to gently
-                    clean the colon from unwanted fecal matter, gas and mucus.
-                    No pressure, machines, or electricity involved. This is a
-                    manual and natural colon therapy that is gentle, relaxing,
-                    and encourages feedback and dialogue between the client and
-                    hydrotherapist.
-                  </p>
-                  <p className="info-about-colon-2">
-                    The gravity method colonic is the original and most natural
-                    way to perform a colon cleanse because it allows the body to
-                    heal itself by ridding the colon of toxin build-up with the
-                    natural forces of water and gravity. Although many clients
-                    are nervous for their first colonic therapy session, most
-                    people say that the process was much easier than they
-                    expected and that the therapy session felt relaxing and
-                    rejuvenating.
-                  </p>
+                  <div>
+                    <p className="info-about-colon">What to do:</p>
+                    <p className="info-about-colon">
+                      <FaRegCheckSquare /> Stay properly hydrated.
+                    </p>
+                    <p className="info-about-colon">
+                      <FaRegCheckSquare /> Drink plenty of water and green
+                      vegetable juices.
+                    </p>
+                    <p className="info-about-colon">
+                      <FaRegCheckSquare /> it'll help to hydrate the body ad
+                      loosen the waste.
+                    </p>
+                    <p className="info-about-colon">
+                      <FaRegCheckSquare /> Avoid caffein, alcohol and tobacco.
+                    </p>
+                    <p className="info-about-colon">
+                      <FaRegCheckSquare /> s it dehydrates the body and creates
+                      inflammation.
+                    </p>
+                  </div>
                 </div>
                 <div className="mk-app-btn">
                   <button className="app-btn">BOOK NOW</button>
