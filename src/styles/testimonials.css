@@ -3,7 +3,6 @@
   background-attachment: fixed;
   background-size: cover;
   height: auto;
-  min-height: 90vh;
 }
 
 .top-review {
@@ -11,7 +10,7 @@
   font-family: 'ZCOOL XiaoWei', serif;
   color: black;
   text-align: left;
-  background-color: #ffffff60;
+  background-color: #ffffffb2;
   padding: 1em;
   box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.384);
   width: 700px;
@@ -21,7 +20,7 @@
   font-family: 'ZCOOL XiaoWei', serif;
   color: black;
   text-align: left;
-  background-color: #ffffff60;
+  background-color: #ffffffb2;
   padding: 1em;
   margin: 65px 0 20px 0;
   box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.384);
