@@ -5,6 +5,7 @@ import '../styles/menu.css'
 
 // import { HashLink as Link } from 'react-router-hash-link';
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
+// import { Navbar, Nav, NavItem } from 'reactstrap'
 
 const Menu = () => (
   <Navbar fixedTop>
